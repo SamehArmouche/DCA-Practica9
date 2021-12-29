@@ -25,3 +25,6 @@ git config --local --list
 
 TODO:
 git config --list
+
+###########History de comandos git##############
+git reflog --all
