@@ -30,3 +30,8 @@ git reflog --all
 
 ###########Helpers##############################
 git reset --soft HEAD~ // undo commit not pushed
+
+############Hooks###############################
+
+.git/hooks/pre-push
+.git/hooks/prepare-commit-msg
