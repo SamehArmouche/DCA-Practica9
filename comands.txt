@@ -3,6 +3,8 @@ git config --global alias.a add
 git config --global alias.co commit
 git config --global alias.pu push
 git config --global alias.pl pull
+git config --global alias.go branch
+git config --global alias.ch checkout 
 
 
 git config --local alias.st status
@@ -10,6 +12,8 @@ git config --local alias.a add
 git config --local alias.co commit
 git config --local alias.pu push
 git config --local alias.pl pull
+git config --local alias.go branch
+git config --local alias.ch checkout 
 
 ##########Mostrando configuraciones#############
 Global:
