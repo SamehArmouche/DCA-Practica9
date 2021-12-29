@@ -7,7 +7,6 @@ git config --global alias.go branch
 git config --global alias.ch checkout 
 
 
-
 git config --local alias.st status
 git config --local alias.a add
 git config --local alias.co commit
@@ -28,3 +27,6 @@ git config --list
 
 ###########History de comandos git##############
 git reflog --all
+
+###########Helpers##############################
+git reset --soft HEAD~ // undo commit not pushed
