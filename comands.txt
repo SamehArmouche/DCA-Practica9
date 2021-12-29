@@ -1,2 +1,22 @@
 git config --global alias.st status
 git config --global alias.a add
+git config --global alias.co commit
+git config --global alias.pu push
+git config --global alias.pl pull
+
+
+git config --local alias.st status
+git config --local alias.a add
+git config --local alias.co commit
+git config --local alias.pu push
+git config --local alias.pl pull
+
+##########Mostrando configuraciones#############
+Global:
+git config --global --list
+
+Local:
+git config --local --list
+
+TODO:
+git config --list
