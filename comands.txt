@@ -35,3 +35,4 @@ git reset --soft HEAD~ // undo commit not pushed
 
 .git/hooks/pre-push
 .git/hooks/prepare-commit-msg
+.git/hooks/pre-commit
